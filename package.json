@@ -1,0 +1,26 @@
+{
+  "name": "prac_typescript",
+  "version": "1.0.0",
+  "description": "practicing typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node ./dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlawlsgus/prac_typescript.git"
+  },
+  "author": "Kabel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlawlsgus/prac_typescript/issues"
+  },
+  "homepage": "https://github.com/rlawlsgus/prac_typescript#readme",
+  "devDependencies": {
+    "tsc-watch": "^4.2.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "typescript": "^3.8.3"
+  }
+}
